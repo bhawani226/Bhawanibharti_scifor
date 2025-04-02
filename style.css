@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background-color: purple;
+    line-height: 75px;
+    padding: 0px 100px;
+
+}
+nav .container p{
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    color: white;
+    cursor: pointer;
+
+}
+nav ul{
+    float: right;
+
+}
+nav li{
+    list-style:none ;
+    display: inline-block;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+nav li a:hover{
+    color:blue;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
