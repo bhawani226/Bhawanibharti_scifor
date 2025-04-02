@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDQtbWluZC0wM18xXzIuanBn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+.registration{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(108, 148, 221, 0.5);
+    
+}
+.registration h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    color: black;
+
+}
+#register{
+    margin: 40px;
+}
+.registration label{
+    font-size: 20px;
+    
+    
+    
+}
+ inpu#name {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+
+}
+input#submit{
+    width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgba(255, 55, 9, 0.5);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+}
+input#reset{
+    width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgba(255, 55, 9, 0.5);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+}
